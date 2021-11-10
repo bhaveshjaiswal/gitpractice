@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('complie') {
+      steps {
+        sh 'sh \'mvn, complie\''
+      }
+    }
+
   }
 }
